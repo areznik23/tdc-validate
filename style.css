@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #aee4fe;
+    gap: 64px;
+}
+
+h1 {
+    font-size: 72px;
+    color: orange;
+    font-family: 'Lilita One', cursive;
+    text-shadow: 5px 5px white;
+  }
