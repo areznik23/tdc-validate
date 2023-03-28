@@ -14,3 +14,19 @@ h1 {
     font-family: 'Lilita One', cursive;
     text-shadow: 5px 5px white;
   }
+
+  .response {
+    display: none;
+  }
+  
+@media only screen and (max-width: 400px) {
+    .main {
+        display: none !important;
+    }
+    .response {
+        display: contents !important;
+    }
+    h1 {
+        font-size: 48px;
+    }
+  }
